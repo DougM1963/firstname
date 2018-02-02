@@ -6,12 +6,15 @@
 <title>Name Game</title>
 <link href="<%= url('/css/main.css') %>" rel= "stylesheet" type="text/css" />
 </head>
-<img alt="doug" align="center" src="/img/nameis.png" class="picture" /><br>
+<img alt="doug" align="center" src="/img/name_is.png" class="picture" /><br><br>
 <body>
 first name is: <%= fname %><br>
 last name is: <%= lname %><br>
 Address is: <%= address %><br>
 City is: <%= city %><br>
-<p>State is: <%= state %><p><br>
+State is: <%= state %><br>
 <br>
 <br>
+<script>
+    window.onload=getOrderDate('date');
+</script>
